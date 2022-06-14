@@ -44,17 +44,17 @@ function App() {
           <div className="flex flex-col grow p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
             <AreaChart data={data} />
           </div>
-          <div className="flex h-40 flex-col my-7 w-[30%] shrink-0 p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
+          <div className="flex flex-col my-7 w-[30%] shrink-0 p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
             <div className="italic">Total amount earned.</div>
             <div className="flex-grow" />
             <div className="ml-auto text-2xl">{currencyFormat((total / 6.25) * 2.75)}</div>
           </div>
-          <div className="flex h-40 flex-col my-7 w-[30%] shrink-0 p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
+          <div className="flex flex-col my-7 w-[30%] shrink-0 p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
             <div className="italic">Total amount of gallons sold.</div>
             <div className="flex-grow" />
             <div className="ml-auto text-2xl">{gallonsFormat(total / 6.25)}</div>
           </div>
-          <div className="flex h-40 flex-col my-7 w-[30%] shrink-0 p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
+          <div className="flex flex-col my-7 w-[30%] shrink-0 p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
             <PieChart data={data} />
           </div>
         </div>

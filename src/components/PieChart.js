@@ -29,7 +29,8 @@ const PieChart = ({ data }) => {
 
     return (
         <>
-            <div className="mx-auto text-sm italic mb-1.5">Total: {currencyFormat(temp[0] + temp[1])}</div>
+            <div className="italic">Total revenue: </div>
+            <div className="italic mb-3">{currencyFormat(temp[0] + temp[1])}</div>
             <Pie data={edited_data} options={{ plugins: { legend: { display: false } } }} />
         </>
     )
