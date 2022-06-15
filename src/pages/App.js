@@ -80,7 +80,7 @@ function App() {
                 <div className="text-center text-sm italic">Total amount earned.</div>
               </div>
             </div>
-            <div className="p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
+            <div className="flex p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
               <div className="mx-auto my-auto">
                 <div className="text-center text-3xl">{gallonsFormat(total / 6.25)}</div>
                 <div className="text-center text-sm italic">Total amount of gallons sold.</div>
