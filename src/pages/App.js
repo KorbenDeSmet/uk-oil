@@ -34,12 +34,9 @@ function App() {
     <div className="flex flex-col min-h-screen bg-neutral-800 text-white selection:bg-[#7bbf36] selection:text-black">
       <div className="flex-grow">
         <Header data={data} />
-        {/* <div className="flex mx-8 mt-6 mb-2 text-lg">
-          <div className="flex mx-auto">Week {data.length} invoice details</div>
-        </div> */}
         <div className="flex flex-wrap px-7 mt-7 justify-between lg:px-72">
           <div className="flex mb-6 w-full justify-between">
-            <div className="flex h-40 flex-col w-[30%] md:grow p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md md:mr-9">
+            <div className="flex h-40 flex-col w-[30%] md:grow p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md md:mr-9 md:px-5">
               <div className="flex">
                 <div className="italic md:text-xl">Last invoice amount</div>
                 <div style={{
@@ -49,7 +46,7 @@ function App() {
               <div className="flex-grow" />
               <div className="ml-auto md:text-3xl">{currencyFormat(data[data.length - 1].invoice_amount)}</div>
             </div>
-            <div className="flex flex-col w-[30%] md:grow p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md md:mr-9">
+            <div className="flex flex-col w-[30%] md:grow p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md md:mr-9 md:px-5">
               <div className="flex">
                 <div className="italic md:text-xl">Gallons sold last week</div>
                 <div style={{
@@ -59,7 +56,7 @@ function App() {
               <div className="flex-grow" />
               <div className="ml-auto md:text-3xl">{gallonsFormat((data[data.length - 1].invoice_amount / 6.25))}</div>
             </div>
-            <div className="flex flex-col w-[31%] p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
+            <div className="flex flex-col w-[31%] p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md md:px-5">
               <div className="flex">
                 <div className="italic md:text-xl">Last weeks profits</div>
                 <div style={{
@@ -74,27 +71,27 @@ function App() {
             <AreaChart data={data} />
           </div>
           <div className="flex lg:flex-wrap w-[100%] lg:w-[31%] lg:h-max">
-            <div className="flex flex-col my-6 mr-4 w-[35%] p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md lg:mt-0 lg:flex-row lg:w-[100%]">
+            <div className="flex flex-col my-6 mr-4 w-[35%] p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md lg:mt-0 lg:flex-row lg:w-[100%] md:pl-5">
               <PieChart data={data} />
             </div>
             <div className="grid grid-row-2 gap-6 my-6 w-[64%] lg:w-[100%] lg:my-0">
               <div className="flex p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
                 <div className="mx-auto my-auto">
                   <div className="text-center text-3xl md:text-4xl">{currencyFormat((total / 6.25) * 2.75)}</div>
-                  <div className="text-center text-sm md:text-xl italic">Total amount earned.</div>
+                  <div className="text-center text-sm md:text-xl italic">Total amount earned!</div>
                 </div>
               </div>
               <div className="flex p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md">
                 <div className="mx-auto my-auto">
                   <div className="text-center text-3xl md:text-4xl">{gallonsFormat(total / 6.25)}</div>
-                  <div className="text-center text-sm md:text-xl italic">Total amount of gallons sold.</div>
+                  <div className="text-center text-sm md:text-xl italic">Total amount of gallons sold!</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col grow p-3 mx-7 mb-7 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md lg:mt-7 lg:mx-72">
-          <div className="text-xl mx-auto">All transactions</div>
+        <div className="flex flex-col grow p-3 lg:px-8 lg:pb-5 mx-7 mb-7 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md lg:mt-7 lg:mx-72">
+          <div className="text-xl mx-auto lg:py-2 lg:text-3xl">All transactions</div>
           <div className="grid grid-cols-7 w-full bg-neutral-800 mt-2 px-2 py-2 rounded-t-lg">
             <div className="text-center">Week</div>
             <div className="col-span-2 text-center">Invoice amount</div>
