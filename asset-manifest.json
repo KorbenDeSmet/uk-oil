@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uk-oil/static/css/main.3dbd2d3c.css",
+    "main.js": "/uk-oil/static/js/main.6a9e40a0.js",
+    "static/js/787.ef7fe2de.chunk.js": "/uk-oil/static/js/787.ef7fe2de.chunk.js",
+    "index.html": "/uk-oil/index.html",
+    "main.3dbd2d3c.css.map": "/uk-oil/static/css/main.3dbd2d3c.css.map",
+    "main.6a9e40a0.js.map": "/uk-oil/static/js/main.6a9e40a0.js.map",
+    "787.ef7fe2de.chunk.js.map": "/uk-oil/static/js/787.ef7fe2de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dbd2d3c.css",
+    "static/js/main.6a9e40a0.js"
+  ]
+}
