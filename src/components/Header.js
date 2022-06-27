@@ -10,7 +10,7 @@ const Header = ({ data }) => {
             <div className="relative w-28">
                 <img src={logo} className="object-contain hover:cursor-pointer" alt="Green uk oil logo" onClick={() => handleClick()} />
             </div>
-            <div className="my-auto text-lg"><div>Weeks of income: <u>{data.length}</u></div></div>
+            <div className="my-auto text-lg">Weeks of income: {data.length}</div>
         </div>
     )
 }
