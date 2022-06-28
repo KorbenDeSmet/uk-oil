@@ -1,5 +1,5 @@
 # 🛢️ UK Oil gas station tracker
-### This dashboard clearly shows the weekly earning from the gas station. 
+### This dashboard shows the weekly earning from the gas station together with other various statistics. 
 
 ## Data
 All data is gathered from following streamers: 
