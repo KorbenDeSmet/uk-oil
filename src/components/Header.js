@@ -1,4 +1,5 @@
 import logo from "./../images/ukoil.png"
+import moment from "moment";
 
 const Header = ({ data }) => {
     const handleClick = () => {
@@ -10,7 +11,8 @@ const Header = ({ data }) => {
             <div className="relative w-28">
                 <img src={logo} className="object-contain hover:cursor-pointer" alt="Green uk oil logo" onClick={() => handleClick()} />
             </div>
-            <div className="my-auto text-lg">Weeks of income: {data.length}</div>
+            {/* <div className="my-auto text-lg">Weeks of income: {data.length}</div> */}
+            <div className="my-auto text-lg">Last updated on {moment(data[data.length - 1].invoice_date).format("MMMM Do")}</div>
         </div>
     )
 }
