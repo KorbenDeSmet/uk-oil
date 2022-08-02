@@ -89,7 +89,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col grow p-3 lg:px-8 lg:pb-5 mb-7 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md lg:mt-7 lg:mx-auto lg:w-[75%]">
+          <div className="flex flex-col grow p-3 lg:px-8 lg:pb-5 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md lg:mt-7 lg:mx-auto lg:w-[75%]">
             <div className="text-xl mx-auto lg:py-2 lg:text-3xl">All transactions</div>
             <div className="grid grid-cols-7 w-full bg-neutral-800 mt-2 px-2 py-2 rounded-t-lg">
               <div className="text-center">Week</div>
@@ -109,6 +109,7 @@ function App() {
             }
           </div>
         </div>
+        <div className="mx-12 p-1 text-sm text-gray-500 text-center lg:mx-auto lg:w-[75%]">**The website does not take faulty charges into consideration and is calculated using the weekly Procyon bill**</div>
       </div>
       <Footer />
     </div >
