@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/uk-oil/static/css/main.381e2103.css",
-    "main.js": "/uk-oil/static/js/main.69755e7e.js",
+    "main.js": "/uk-oil/static/js/main.68caa2b7.js",
     "static/js/787.ef7fe2de.chunk.js": "/uk-oil/static/js/787.ef7fe2de.chunk.js",
     "index.html": "/uk-oil/index.html",
     "main.381e2103.css.map": "/uk-oil/static/css/main.381e2103.css.map",
-    "main.69755e7e.js.map": "/uk-oil/static/js/main.69755e7e.js.map",
+    "main.68caa2b7.js.map": "/uk-oil/static/js/main.68caa2b7.js.map",
     "787.ef7fe2de.chunk.js.map": "/uk-oil/static/js/787.ef7fe2de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.381e2103.css",
-    "static/js/main.69755e7e.js"
+    "static/js/main.68caa2b7.js"
   ]
 }
