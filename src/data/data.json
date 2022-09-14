@@ -88,5 +88,10 @@
         "id": 18,
         "invoice_date": "2022-09-07T00:00:00.000Z",
         "invoice_amount": 384206
+    },
+    {
+        "id": 19,
+        "invoice_date": "2022-09-13T00:00:00.000Z",
+        "invoice_amount": 329631
     }
 ]
