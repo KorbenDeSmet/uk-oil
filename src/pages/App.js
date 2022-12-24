@@ -35,6 +35,7 @@ function App() {
       <div className="flex-grow">
         <Header data={data} />
         <div className="flex flex-wrap px-7 mt-7 justify-between lg:mx-auto lg:w-[75%]">
+          <div className="text-xl rounded-lg mx-auto mb-7 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 px-3 py-2">This website is inactive due to Procyon no longer supplying UK Oil</div>
           <div className="flex mb-6 w-full justify-between">
             <div className="flex h-40 flex-col w-[30%] md:grow p-3 shadow-[2px_2px_4px_rgba(169,169,169,0.5)] bg-neutral-900 rounded-md md:mr-9 md:px-5">
               <div className="flex">
